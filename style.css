@@ -3,6 +3,7 @@ body, html, *{
     top: 0;
     bottom: 0;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .tables{
@@ -14,13 +15,38 @@ body, html, *{
     width:500px;
 }
 
+.tables h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 table{
     border:2px solid black;
     width: 100%;
-    background: rgb(123,532,213);
+    background: hsla(61, 81%, 88%, 1);
+
+    background: linear-gradient(90deg, hsla(61, 81%, 88%, 1) 0%, hsla(310, 65%, 85%, 1) 50%, hsla(7, 89%, 69%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(61, 81%, 88%, 1) 0%, hsla(310, 65%, 85%, 1) 50%, hsla(7, 89%, 69%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(61, 81%, 88%, 1) 0%, hsla(310, 65%, 85%, 1) 50%, hsla(7, 89%, 69%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F8F9C7", endColorstr="#F2C1EA", GradientType=1 );
 }
+
 
 td{
     padding: 5px;
     border: 1px solid black;
+}
+
+tr :hover{
+    background: hsla(39, 51%, 85%, 1);
+
+    background: linear-gradient(90deg, hsla(39, 51%, 85%, 1) 0%, hsla(182, 93%, 68%, 1) 50%, hsla(318, 79%, 79%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(39, 51%, 85%, 1) 0%, hsla(182, 93%, 68%, 1) 50%, hsla(318, 79%, 79%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(39, 51%, 85%, 1) 0%, hsla(182, 93%, 68%, 1) 50%, hsla(318, 79%, 79%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ECDEC4", endColorstr="#62F4F9", GradientType=1 );
 }
