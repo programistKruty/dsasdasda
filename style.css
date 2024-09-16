@@ -1,0 +1,26 @@
+body, html, *{
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.tables{
+    margin: 0;
+    top:0;
+    bottom:0;
+    position: relative;
+    height: 300px;
+    width:500px;
+}
+
+table{
+    border:2px solid black;
+    width: 100%;
+    background: rgb(123,532,213);
+}
+
+td{
+    padding: 5px;
+    border: 1px solid black;
+}
